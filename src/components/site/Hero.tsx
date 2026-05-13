@@ -1,4 +1,7 @@
 import { ArrowRight, Sparkles, ShieldCheck } from "lucide-react";
+import heroDashboard from "@/assets/hero-dashboard.jpg";
+import heroCurriculo from "@/assets/hero-curriculo.jpg";
+import heroInspiracoes from "@/assets/hero-inspiracoes.jpg";
 
 export function Hero() {
   return (
