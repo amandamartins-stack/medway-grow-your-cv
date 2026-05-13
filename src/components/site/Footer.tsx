@@ -14,7 +14,6 @@ export function Footer() {
           <a href="#produto" className="hover:text-brand-navy">Como funciona</a>
           <a href="#diferencial" className="hover:text-brand-navy">Diferenciais</a>
           <a href="#faq" className="hover:text-brand-navy">FAQ</a>
-          <a href="#faq" className="hover:text-brand-navy">FAQ</a>
         </div>
       </div>
       <div className="border-t border-border py-5">
