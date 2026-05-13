@@ -100,68 +100,42 @@ export function Hero() {
 
 function HeroPreview() {
   return (
-    <div className="relative mx-auto w-full max-w-md animate-fade-up [animation-delay:120ms]">
+    <div className="relative mx-auto w-full max-w-xl animate-fade-up [animation-delay:120ms]">
       <div
-        className="absolute -inset-6 -z-10 rounded-[2rem] opacity-40 blur-2xl"
+        className="absolute -inset-10 -z-10 rounded-[2.5rem] opacity-50 blur-3xl"
         style={{ background: "var(--gradient-mint)" }}
         aria-hidden
       />
-      <div className="rounded-[1.75rem] border border-white/10 bg-white/95 p-5 shadow-elevated backdrop-blur-xl animate-float-soft">
-        <div className="flex items-center justify-between border-b border-border/60 pb-4">
-          <div className="flex items-center gap-2">
-            <div className="h-9 w-9 rounded-xl bg-brand-navy text-white grid place-items-center text-xs font-bold">
-              MC
-            </div>
-            <div className="leading-tight">
-              <div className="text-xs font-semibold text-ink">Dra. Ana Ribeiro</div>
-              <div className="text-[10px] text-ink-soft">CRM 123.456 · Medicina · 6º ano</div>
-            </div>
-          </div>
-          <div className="rounded-full bg-brand-mint-soft px-2.5 py-1 text-[10px] font-semibold text-brand-navy">
-            Pronto para enviar
-          </div>
-        </div>
 
-        <div className="mt-4 space-y-3">
-          {[
-            { label: "Formação acadêmica", value: 100 },
-            { label: "Ligas e extensões", value: 92 },
-            { label: "Pesquisa & publicações", value: 78 },
-            { label: "Estágios eletivos", value: 64 },
-          ].map((row) => (
-            <div key={row.label}>
-              <div className="flex items-center justify-between text-[11px] font-medium text-ink-soft">
-                <span>{row.label}</span>
-                <span className="text-ink">{row.value}%</span>
-              </div>
-              <div className="mt-1 h-1.5 w-full overflow-hidden rounded-full bg-muted">
-                <div
-                  className="h-full rounded-full"
-                  style={{
-                    width: `${row.value}%`,
-                    background: "var(--gradient-mint)",
-                  }}
-                />
-              </div>
-            </div>
-          ))}
-        </div>
-
-        <div className="mt-5 grid grid-cols-3 gap-2 border-t border-border/60 pt-4 text-center">
-          <Stat k="12" v="experiências" />
-          <Stat k="4" v="publicações" />
-          <Stat k="A+" v="score Medway" />
-        </div>
+      {/* Main screenshot — Currículo */}
+      <div className="relative overflow-hidden rounded-2xl border border-border/60 bg-white shadow-elevated animate-float-soft">
+        <img
+          src={heroCurriculo}
+          alt="Tela do Medway Currículo mostrando seções de preenchimento e notas por instituição"
+          className="block w-full"
+          loading="eager"
+        />
       </div>
-    </div>
-  );
-}
 
-function Stat({ k, v }: { k: string; v: string }) {
-  return (
-    <div className="rounded-xl bg-surface-2 px-2 py-2.5">
-      <div className="text-base font-bold text-brand-navy">{k}</div>
-      <div className="text-[10px] uppercase tracking-wider text-ink-soft">{v}</div>
+      {/* Floating top — Dashboard / pódio */}
+      <div className="absolute -top-10 -left-10 hidden w-[58%] overflow-hidden rounded-xl border border-border/60 bg-white shadow-elevated sm:block">
+        <img
+          src={heroDashboard}
+          alt="Dashboard Medway com pódio das instituições e nota do candidato"
+          className="block w-full"
+          loading="eager"
+        />
+      </div>
+
+      {/* Floating bottom — Inspirações */}
+      <div className="absolute -bottom-10 -right-8 hidden w-[55%] overflow-hidden rounded-xl border border-border/60 bg-white shadow-elevated sm:block">
+        <img
+          src={heroInspiracoes}
+          alt="Galeria de currículos de aprovados Medway"
+          className="block w-full"
+          loading="eager"
+        />
+      </div>
     </div>
   );
 }
