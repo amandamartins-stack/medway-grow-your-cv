@@ -61,6 +61,16 @@ export function Product() {
             </div>
           ))}
         </div>
+
+        <div className="mt-12 flex justify-center">
+          <a
+            href="https://curriculo.medway.com.br/signup"
+            className="group inline-flex h-12 items-center justify-center gap-2 rounded-full bg-brand-navy px-7 text-sm font-semibold text-white shadow-soft transition hover:translate-y-[-1px] hover:bg-brand-navy-soft"
+          >
+            Criar minha conta
+            <ArrowRight className="h-4 w-4 transition group-hover:translate-x-0.5" />
+          </a>
+        </div>
       </div>
     </section>
   );
