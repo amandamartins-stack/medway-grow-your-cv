@@ -1,4 +1,4 @@
-import { CheckCircle2, FileText, Wand2, Download } from "lucide-react";
+import { CheckCircle2, FileText, Wand2, Download, ArrowRight } from "lucide-react";
 
 const steps = [
   {
