@@ -25,32 +25,27 @@ export function CTA() {
             </p>
           </div>
 
-          <form
-            onSubmit={(e) => e.preventDefault()}
-            className="flex flex-col gap-3 rounded-2xl border border-white/10 bg-white/5 p-5 backdrop-blur"
-          >
-            <label className="text-xs font-semibold uppercase tracking-widest text-white/60">
-              Receba o acesso assim que liberarmos
-            </label>
-            <input
-              type="email"
-              required
-              placeholder="seu@email.com"
-              className="h-12 w-full rounded-xl border border-white/15 bg-white/10 px-4 text-sm text-white placeholder:text-white/40 outline-none focus:border-brand-mint"
-            />
+          <div className="flex flex-col gap-4 rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur">
+            <p className="text-sm text-white/75">
+              Crie sua conta gratuitamente e comece a montar seu currículo médico agora mesmo.
+            </p>
             <a
-              href="#"
-              aria-disabled
-              title="Em breve"
-              className="group inline-flex h-12 items-center justify-center gap-2 rounded-xl bg-brand-mint text-sm font-semibold text-brand-navy shadow-mint transition hover:brightness-105"
+              href="https://curriculo.medway.com.br/signup"
+              className="group inline-flex h-12 items-center justify-center gap-2 rounded-xl bg-brand-mint px-6 text-sm font-semibold text-brand-navy shadow-mint transition hover:brightness-105"
             >
-              Quero acesso ao Medway Currículo
+              Criar minha conta
               <ArrowRight className="h-4 w-4 transition group-hover:translate-x-0.5" />
             </a>
-            <p className="text-[11px] text-white/50">
-              Sem spam. Você pode sair quando quiser.
+            <p className="text-xs text-white/55">
+              Já tem conta?{" "}
+              <a
+                href="https://curriculo.medway.com.br/login"
+                className="font-semibold text-white underline-offset-4 hover:underline"
+              >
+                Fazer login
+              </a>
             </p>
-          </form>
+          </div>
         </div>
       </div>
     </section>
