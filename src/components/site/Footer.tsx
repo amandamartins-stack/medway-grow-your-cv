@@ -1,0 +1,30 @@
+const LOGO = "https://campanhas.medway.com.br/hs-fs/hubfs/medway-logo-horizontal-azul-verde.png";
+
+export function Footer() {
+  return (
+    <footer className="border-t border-border bg-surface-2/40">
+      <div className="container-page flex flex-col items-start justify-between gap-8 py-12 md:flex-row md:items-center">
+        <div>
+          <img src={LOGO} alt="Medway" className="h-7 w-auto" />
+          <p className="mt-3 max-w-sm text-sm text-ink-soft">
+            Medway Currículo — feito por quem entende de carreira médica.
+          </p>
+        </div>
+        <div className="flex flex-wrap gap-x-8 gap-y-3 text-sm text-ink-soft">
+          <a href="#produto" className="hover:text-brand-navy">Como funciona</a>
+          <a href="#diferencial" className="hover:text-brand-navy">Diferenciais</a>
+          <a href="#faq" className="hover:text-brand-navy">FAQ</a>
+          <a href="https://medway.com.br" target="_blank" rel="noreferrer" className="hover:text-brand-navy">
+            medway.com.br
+          </a>
+        </div>
+      </div>
+      <div className="border-t border-border py-5">
+        <div className="container-page flex flex-col items-center justify-between gap-2 text-xs text-ink-soft md:flex-row">
+          <span>© {new Date().getFullYear()} Medway. Todos os direitos reservados.</span>
+          <span>CNPJ 00.000.000/0001-00 · Política de privacidade · Termos</span>
+        </div>
+      </div>
+    </footer>
+  );
+}
