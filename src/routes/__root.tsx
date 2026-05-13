@@ -72,18 +72,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Medway Currículo — O currículo que abre portas na medicina" },
+      { title: "Medway Currículo - Score de residência por instituição - Medway" },
       {
         name: "description",
         content:
-          "Construa um currículo médico estratégico, validado e pronto para residência, ligas e processos seletivos. Feito com a inteligência da Medway.",
+          "Não sabe se seu currículo está competitivo? O Medway Currículo analisa sua pontuação nas principais residências médicas e mostra exatamente onde melhorar.",
       },
       { name: "author", content: "Medway" },
-      { property: "og:title", content: "Medway Currículo — O currículo que abre portas" },
+      { property: "og:title", content: "Medway Currículo - Score de residência por instituição - Medway" },
       {
         property: "og:description",
         content:
-          "Construa um currículo médico estratégico, validado e pronto para residência. Feito com a inteligência da Medway.",
+          "Não sabe se seu currículo está competitivo? O Medway Currículo analisa sua pontuação nas principais residências médicas e mostra exatamente onde melhorar.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
