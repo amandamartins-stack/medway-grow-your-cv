@@ -54,10 +54,10 @@ export function Hero() {
 
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
               <a
-                href="#cta"
+                href="https://curriculo.medway.com.br/signup"
                 className="group inline-flex h-12 items-center justify-center gap-2 rounded-full bg-brand-navy px-7 text-sm font-semibold text-white shadow-soft transition hover:translate-y-[-1px] hover:bg-brand-navy-soft"
               >
-                Criar meu currículo
+                Começar
                 <ArrowRight className="h-4 w-4 transition group-hover:translate-x-0.5" />
               </a>
               <a
@@ -67,6 +67,16 @@ export function Hero() {
                 Ver como funciona
               </a>
             </div>
+
+            <p className="mt-4 text-sm text-ink-soft">
+              Já tem conta?{" "}
+              <a
+                href="https://curriculo.medway.com.br/login"
+                className="font-semibold text-brand-navy underline-offset-4 hover:underline"
+              >
+                Fazer login
+              </a>
+            </p>
 
             <div className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-3 text-xs text-ink-soft">
               <div className="flex items-center gap-2">
