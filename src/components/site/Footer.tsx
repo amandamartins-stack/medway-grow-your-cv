@@ -20,9 +20,8 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-border py-5">
-        <div className="container-page flex flex-col items-center justify-between gap-2 text-xs text-ink-soft md:flex-row">
-          <span>© {new Date().getFullYear()} Medway. Todos os direitos reservados.</span>
-          <span>CNPJ 00.000.000/0001-00 · Política de privacidade · Termos</span>
+        <div className="container-page text-center text-xs text-ink-soft">
+          © {new Date().getFullYear()} Medway. Todos os direitos reservados.
         </div>
       </div>
     </footer>
