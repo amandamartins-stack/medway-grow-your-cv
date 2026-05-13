@@ -2,40 +2,52 @@ import { ArrowRight, Sparkles, ShieldCheck } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className="relative overflow-hidden">
+    <section className="relative overflow-hidden bg-background">
       <div
         className="absolute inset-0 -z-10"
-        style={{ background: "var(--gradient-hero)" }}
+        style={{
+          background:
+            "radial-gradient(120% 80% at 85% 0%, color-mix(in oklab, var(--brand-mint) 22%, transparent) 0%, transparent 55%), linear-gradient(180deg, var(--surface-2) 0%, var(--background) 70%)",
+        }}
         aria-hidden
       />
-      <div className="absolute inset-0 -z-10 grid-bg" aria-hidden />
       <div
-        className="absolute -top-40 right-[-10%] -z-10 h-[520px] w-[520px] rounded-full opacity-30 blur-3xl"
+        className="absolute inset-0 -z-10 opacity-[0.35]"
+        style={{
+          backgroundImage:
+            "linear-gradient(to right, oklch(0.27 0.10 264 / 0.06) 1px, transparent 1px), linear-gradient(to bottom, oklch(0.27 0.10 264 / 0.06) 1px, transparent 1px)",
+          backgroundSize: "56px 56px",
+          maskImage: "radial-gradient(ellipse at top, black 35%, transparent 75%)",
+        }}
+        aria-hidden
+      />
+      <div
+        className="absolute -top-40 right-[-10%] -z-10 h-[520px] w-[520px] rounded-full opacity-25 blur-3xl"
         style={{ background: "var(--gradient-mint)" }}
         aria-hidden
       />
 
       <div className="container-page relative pb-24 pt-20 md:pb-32 md:pt-28">
         <div className="grid items-center gap-16 lg:grid-cols-[1.15fr_1fr]">
-          <div className="text-white animate-fade-up">
-            <span className="eyebrow-light">
-              <Sparkles className="h-3.5 w-3.5" /> Novo · Medway Currículo
+          <div className="animate-fade-up">
+            <span className="eyebrow">
+              <Sparkles className="h-3.5 w-3.5 text-brand-mint" /> Novo · Medway Currículo
             </span>
 
-            <h1 className="mt-5 text-balance text-4xl font-semibold leading-[1.05] tracking-tight md:text-6xl lg:text-[68px]">
+            <h1 className="mt-5 text-balance text-4xl font-semibold leading-[1.05] tracking-tight text-brand-navy md:text-6xl lg:text-[68px]">
               O currículo médico que{" "}
               <span className="relative inline-block">
-                <span className="relative z-10 text-brand-mint">abre portas</span>
+                <span className="relative z-10 text-brand-navy">abre portas</span>
                 <span
                   aria-hidden
-                  className="absolute inset-x-0 bottom-1 -z-0 h-3 rounded-full opacity-30"
+                  className="absolute inset-x-0 bottom-1 -z-0 h-3 rounded-full opacity-70"
                   style={{ background: "var(--brand-mint)" }}
                 />
               </span>{" "}
               de verdade.
             </h1>
 
-            <p className="mt-6 max-w-xl text-pretty text-base leading-relaxed text-white/75 md:text-lg">
+            <p className="mt-6 max-w-xl text-pretty text-base leading-relaxed text-ink-soft md:text-lg">
               Monte, organize e valide seu currículo com a metodologia Medway. Estruturado para
               residência, ligas, estágios e processos seletivos — sem achismo e sem tempo perdido.
             </p>
@@ -43,25 +55,25 @@ export function Hero() {
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
               <a
                 href="#cta"
-                className="group inline-flex h-12 items-center justify-center gap-2 rounded-full bg-brand-mint px-7 text-sm font-semibold text-brand-navy shadow-mint transition hover:translate-y-[-1px] hover:brightness-105"
+                className="group inline-flex h-12 items-center justify-center gap-2 rounded-full bg-brand-navy px-7 text-sm font-semibold text-white shadow-soft transition hover:translate-y-[-1px] hover:bg-brand-navy-soft"
               >
                 Criar meu currículo
                 <ArrowRight className="h-4 w-4 transition group-hover:translate-x-0.5" />
               </a>
               <a
                 href="#produto"
-                className="inline-flex h-12 items-center justify-center rounded-full border border-white/20 bg-white/5 px-7 text-sm font-semibold text-white backdrop-blur transition hover:bg-white/10"
+                className="inline-flex h-12 items-center justify-center rounded-full border border-border bg-card px-7 text-sm font-semibold text-brand-navy transition hover:border-brand-navy"
               >
                 Ver como funciona
               </a>
             </div>
 
-            <div className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-3 text-xs text-white/60">
+            <div className="mt-10 flex flex-wrap items-center gap-x-8 gap-y-3 text-xs text-ink-soft">
               <div className="flex items-center gap-2">
                 <ShieldCheck className="h-4 w-4 text-brand-mint" />
                 Validado por especialistas Medway
               </div>
-              <div className="hidden h-4 w-px bg-white/20 sm:block" />
+              <div className="hidden h-4 w-px bg-border sm:block" />
               <div>+ de 50.000 médicos confiam na Medway</div>
             </div>
           </div>
