@@ -34,7 +34,7 @@ export function Product() {
         <div className="grid items-end gap-10 md:grid-cols-[1fr_auto]">
           <div className="max-w-2xl">
             <span className="eyebrow">Como funciona</span>
-            <h2 className="mt-4 text-balance text-3xl font-semibold tracking-tight text-brand-navy md:text-5xl">
+            <h2 className="mt-4 text-balance text-3xl font-bold tracking-tight text-brand-navy md:text-5xl">
               Em poucos minutos, transforme dúvida em <span className="text-brand-mint">direção</span>.
             </h2>
             <p className="mt-5 text-pretty text-ink-soft md:text-lg">
