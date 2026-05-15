@@ -4,7 +4,7 @@ export function Testimonials() {
       <div className="container-page">
         <div className="mx-auto max-w-3xl text-center">
           <span className="eyebrow-light">Por que Medway</span>
-          <h2 className="mt-4 text-balance text-3xl font-semibold tracking-tight md:text-5xl">
+          <h2 className="mt-4 text-balance text-3xl font-bold tracking-tight md:text-5xl">
             Inteligência de residência para orientar seu currículo.
           </h2>
           <p className="mt-6 text-pretty text-base leading-relaxed text-white/75 md:text-lg">
