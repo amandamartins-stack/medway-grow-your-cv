@@ -1,29 +1,29 @@
-import { CheckCircle2, FileText, Wand2, Download, ArrowRight } from "lucide-react";
+import { FileText, BarChart3, Lightbulb, Compass, ArrowRight } from "lucide-react";
 
 const steps = [
   {
     n: "01",
     icon: FileText,
-    title: "Preencha guiado por categoria",
-    desc: "Nada de página em branco. Você é guiado por seções pensadas pelo time Medway: formação, ligas, pesquisa, estágios, idiomas.",
+    title: "Preencha seu currículo médico",
+    desc: "Conte o que você construiu até aqui de forma simples e guiada.",
   },
   {
     n: "02",
-    icon: Wand2,
-    title: "Estruturação inteligente",
-    desc: "A ferramenta organiza, prioriza e formata automaticamente — seguindo o padrão que bancas e processos seletivos esperam ver.",
+    icon: BarChart3,
+    title: "Veja sua pontuação por instituição",
+    desc: "Entenda quanto seu currículo vale nas instituições disponíveis.",
   },
   {
     n: "03",
-    icon: CheckCircle2,
-    title: "Validação Medway",
-    desc: "Receba sinalizações sobre o que pode estar fraco, faltando ou mal posicionado. Você corrige antes de competir.",
+    icon: Lightbulb,
+    title: "Entenda o que falta melhorar",
+    desc: "Receba um diagnóstico dos pontos que podem aumentar sua nota.",
   },
   {
     n: "04",
-    icon: Download,
-    title: "Exporte em PDF profissional",
-    desc: "Layout limpo, tipografia clara, hierarquia correta. Pronto para anexar em qualquer processo.",
+    icon: Compass,
+    title: "Compare e priorize seus próximos passos",
+    desc: "Use a análise para decidir onde investir tempo até a residência.",
   },
 ];
 
@@ -33,13 +33,13 @@ export function Product() {
       <div className="container-page">
         <div className="grid items-end gap-10 md:grid-cols-[1fr_auto]">
           <div className="max-w-2xl">
-            <span className="eyebrow">A solução</span>
+            <span className="eyebrow">Como funciona</span>
             <h2 className="mt-4 text-balance text-3xl font-semibold tracking-tight text-brand-navy md:text-5xl">
-              Um currículo estratégico em <span className="text-brand-mint">4 passos</span>.
+              Em poucos minutos, transforme dúvida em <span className="text-brand-mint">direção</span>.
             </h2>
             <p className="mt-5 text-pretty text-ink-soft md:text-lg">
-              Pensado para a realidade do estudante de medicina e do médico em transição.
-              Sem fricção, sem suposição.
+              O Medway Currículo analisa suas experiências e mostra uma estimativa de pontuação
+              para as instituições disponíveis na plataforma.
             </p>
           </div>
         </div>
@@ -67,7 +67,7 @@ export function Product() {
             href="https://curriculo.medway.com.br/signup"
             className="group inline-flex h-12 items-center justify-center gap-2 rounded-full bg-brand-navy px-7 text-sm font-semibold text-white shadow-soft transition hover:translate-y-[-1px] hover:bg-brand-navy-soft"
           >
-            Criar minha conta
+            Fazer meu diagnóstico grátis
             <ArrowRight className="h-4 w-4 transition group-hover:translate-x-0.5" />
           </a>
         </div>

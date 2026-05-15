@@ -1,52 +1,30 @@
-const quotes = [
-  {
-    quote:
-      "Eu passei 3 finais de semana mexendo no meu currículo no Word. Em uma tarde, refiz tudo aqui — e finalmente parecia profissional.",
-    name: "Marina A.",
-    role: "Aprovada R1 · Cirurgia Geral",
-  },
-  {
-    quote:
-      "O que mudou pra mim foi entender o que valia ponto e o que era ruído. A ferramenta deixa isso óbvio.",
-    name: "Lucas P.",
-    role: "Candidato R+ · Cardiologia",
-  },
-  {
-    quote:
-      "Como coordenador de liga, recomendei pra todo mundo. Currículo limpo, padrão, sem perder a identidade do estudante.",
-    name: "Dr. Felipe M.",
-    role: "Preceptor · USP",
-  },
-];
-
 export function Testimonials() {
   return (
     <section className="bg-brand-navy py-24 text-white md:py-32">
       <div className="container-page">
-        <div className="mx-auto max-w-2xl text-center">
-          <span className="eyebrow-light">Quem usa</span>
+        <div className="mx-auto max-w-3xl text-center">
+          <span className="eyebrow-light">Por que Medway</span>
           <h2 className="mt-4 text-balance text-3xl font-semibold tracking-tight md:text-5xl">
-            Construído com — e para — quem vive a medicina.
+            Inteligência de residência para orientar seu currículo.
           </h2>
+          <p className="mt-6 text-pretty text-base leading-relaxed text-white/75 md:text-lg">
+            A Medway acompanha de perto a jornada de quem busca aprovação nas residências mais
+            concorridas do país.
+          </p>
+          <p className="mt-3 text-pretty text-base leading-relaxed text-white/75 md:text-lg">
+            Agora, essa experiência também ajuda você a entender o peso do seu currículo e a
+            tomar decisões com mais segurança antes da inscrição.
+          </p>
         </div>
 
-        <div className="mt-14 grid gap-5 md:grid-cols-3">
-          {quotes.map((q) => (
-            <figure
-              key={q.name}
-              className="flex flex-col justify-between rounded-2xl border border-white/10 bg-white/5 p-7 backdrop-blur"
-            >
-              <blockquote className="text-base leading-relaxed text-white/90">
-                <span className="text-brand-mint">“</span>
-                {q.quote}
-                <span className="text-brand-mint">”</span>
-              </blockquote>
-              <figcaption className="mt-6 border-t border-white/10 pt-5">
-                <div className="text-sm font-semibold text-white">{q.name}</div>
-                <div className="text-xs text-white/60">{q.role}</div>
-              </figcaption>
-            </figure>
-          ))}
+        <div className="mx-auto mt-12 max-w-2xl rounded-2xl border border-white/10 bg-white/5 p-8 text-center backdrop-blur">
+          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-brand-mint">
+            Feito por quem entende de aprovação
+          </p>
+          <p className="mt-4 text-pretty text-base leading-relaxed text-white/85 md:text-lg">
+            Uma ferramenta criada para transformar critérios complexos em uma visão simples,
+            prática e acionável.
+          </p>
         </div>
       </div>
     </section>

@@ -23,7 +23,11 @@ export function LogoBar() {
     <section className="border-y border-border/60 bg-surface-2/60">
       <div className="container-page py-14 md:py-16">
         <p className="text-center text-xs font-semibold uppercase tracking-[0.2em] text-ink-soft">
-          A escola por trás de quem passa
+          A Escola por trás de quem passa
+        </p>
+        <p className="mx-auto mt-4 max-w-2xl text-center text-sm text-ink-soft md:text-base">
+          A Medway já ajudou milhares de médicos a chegarem mais perto da aprovação. Agora,
+          essa experiência também ajuda você a entender o peso do seu currículo na residência.
         </p>
         <div className="mt-8 grid gap-6 md:grid-cols-3">
           {stats.map((s) => (

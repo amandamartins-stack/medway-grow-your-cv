@@ -38,21 +38,21 @@ export function Hero() {
             </span>
 
             <h1 className="mt-5 text-balance text-4xl font-semibold leading-[1.05] tracking-tight text-brand-navy md:text-6xl lg:text-[68px]">
-              O currículo médico que{" "}
+              Descubra quanto seu currículo{" "}
               <span className="relative inline-block">
-                <span className="relative z-10 text-brand-navy">abre portas</span>
+                <span className="relative z-10 text-brand-navy">vale</span>
                 <span
                   aria-hidden
                   className="absolute inset-x-0 bottom-1 -z-0 h-3 rounded-full opacity-70"
                   style={{ background: "var(--brand-mint)" }}
                 />
               </span>{" "}
-              de verdade.
+              para a residência médica.
             </h1>
 
             <p className="mt-6 max-w-xl text-pretty text-base leading-relaxed text-ink-soft md:text-lg">
-              Monte, organize e valide seu currículo com a metodologia Medway. Estruturado para
-              residência, ligas, estágios e processos seletivos — sem achismo e sem tempo perdido.
+              Preencha seu currículo médico e veja sua pontuação estimada nas instituições
+              disponíveis, com base nos critérios dos editais.
             </p>
 
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
@@ -60,14 +60,8 @@ export function Hero() {
                 href="https://curriculo.medway.com.br/signup"
                 className="group inline-flex h-12 items-center justify-center gap-2 rounded-full bg-brand-navy px-7 text-sm font-semibold text-white shadow-soft transition hover:translate-y-[-1px] hover:bg-brand-navy-soft"
               >
-                Começar
+                Acessar grátis
                 <ArrowRight className="h-4 w-4 transition group-hover:translate-x-0.5" />
-              </a>
-              <a
-                href="#produto"
-                className="inline-flex h-12 items-center justify-center rounded-full border border-border bg-card px-7 text-sm font-semibold text-brand-navy transition hover:border-brand-navy"
-              >
-                Ver como funciona
               </a>
             </div>
 

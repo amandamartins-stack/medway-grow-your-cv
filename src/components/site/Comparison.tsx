@@ -1,12 +1,12 @@
 import { Check, X } from "lucide-react";
 
 const rows = [
-  ["Estrutura validada por especialistas", false, true],
-  ["Critério por banca / instituição", false, true],
-  ["Múltiplas versões do mesmo currículo", false, true],
-  ["Sinalização do que está faltando", false, true],
-  ["Formatação profissional automática", false, true],
-  ["Atualização quando as regras mudam", false, true],
+  ["Ler critérios de diferentes editais", true, true],
+  ["Comparar pesos por instituição", false, true],
+  ["Estimar sua pontuação", false, true],
+  ["Identificar gaps do currículo", false, true],
+  ["Entender onde priorizar esforços", false, true],
+  ["Ter uma visão mais clara para decidir", false, true],
 ];
 
 export function Comparison() {
@@ -15,16 +15,16 @@ export function Comparison() {
       <div className="mx-auto max-w-3xl text-center">
         <span className="eyebrow">Comparativo</span>
         <h2 className="mt-4 text-balance text-3xl font-semibold tracking-tight text-brand-navy md:text-5xl">
-          O Word resolve. Até parar de resolver.
+          Dá para tentar entender tudo sozinho, mas não precisa.
         </h2>
       </div>
 
       <div className="mx-auto mt-14 max-w-4xl overflow-hidden rounded-3xl border border-border bg-card shadow-soft">
         <div className="grid grid-cols-[1.4fr_1fr_1fr] border-b border-border bg-surface-2/60 text-xs font-semibold uppercase tracking-widest text-ink-soft">
           <div className="p-5">Recurso</div>
-          <div className="border-l border-border p-5 text-center">Currículo manual</div>
+          <div className="border-l border-border p-5 text-center">Sozinho</div>
           <div className="border-l border-border bg-brand-navy p-5 text-center text-brand-mint">
-            Medway Currículo
+            Com Medway Currículo
           </div>
         </div>
         {rows.map(([label, manual, medway], i) => (

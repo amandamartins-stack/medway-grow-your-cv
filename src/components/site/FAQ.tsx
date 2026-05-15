@@ -4,23 +4,27 @@ import { Plus, Minus } from "lucide-react";
 const faqs = [
   {
     q: "O Medway Currículo é gratuito?",
-    a: "Sim, o acesso inicial é gratuito para a comunidade Medway. Recursos avançados poderão estar disponíveis em planos específicos no futuro.",
+    a: "Sim. Você pode acessar gratuitamente a ferramenta e fazer seu diagnóstico curricular.",
   },
   {
-    q: "Funciona para qualquer processo seletivo de residência?",
-    a: "Sim. A estrutura cobre os principais formatos exigidos em provas de títulos pelo Brasil — incluindo USP, UNIFESP, UNICAMP, ENARE e instituições privadas de referência.",
+    q: "Como a pontuação é calculada?",
+    a: "A estimativa considera critérios dos editais das instituições disponíveis na plataforma.",
   },
   {
-    q: "Posso ter mais de uma versão do mesmo currículo?",
-    a: "Pode. Você cria versões diferentes para residência, ligas, estágios eletivos, R+ ou processos internacionais, sem precisar reescrever do zero.",
+    q: "O resultado é minha nota oficial na prova de títulos?",
+    a: "Não. O Medway Currículo oferece uma estimativa para orientar sua preparação. A nota oficial depende da avaliação da banca de cada processo seletivo.",
+  },
+  {
+    q: "Quais instituições estão disponíveis?",
+    a: "A estrutura cobre os principais formatos exigidos em provas de títulos pelo Brasil incluindo USP, UNIFESP, UNICAMP, ENARE e instituições privadas de referência.",
+  },
+  {
+    q: "Serve para quem ainda está no 4º ou 5º ano?",
+    a: "Sim. Quanto antes você entende seus gaps, mais tempo tem para construir um currículo competitivo.",
   },
   {
     q: "Meus dados ficam seguros?",
-    a: "Sim. Tratamos seus dados em conformidade com a LGPD. Apenas você acessa seu currículo — nada é compartilhado sem sua autorização.",
-  },
-  {
-    q: "Já posso usar agora?",
-    a: "A ferramenta está em fase final de lançamento. Cadastre-se acima para receber o acesso assim que liberarmos.",
+    a: "Sim. Suas informações são usadas para gerar o diagnóstico dentro da plataforma e apoiar sua experiência com a ferramenta.",
   },
 ];
 
