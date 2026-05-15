@@ -1,12 +1,12 @@
 import { Check, X } from "lucide-react";
 
 const rows = [
-  ["Estrutura validada por especialistas", false, true],
-  ["Critério por banca / instituição", false, true],
-  ["Múltiplas versões do mesmo currículo", false, true],
-  ["Sinalização do que está faltando", false, true],
-  ["Formatação profissional automática", false, true],
-  ["Atualização quando as regras mudam", false, true],
+  ["Ler critérios de diferentes editais", true, true],
+  ["Comparar pesos por instituição", false, true],
+  ["Estimar sua pontuação", false, true],
+  ["Identificar gaps do currículo", false, true],
+  ["Entender onde priorizar esforços", false, true],
+  ["Ter uma visão mais clara para decidir", false, true],
 ];
 
 export function Comparison() {
