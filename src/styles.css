@@ -165,10 +165,10 @@
   align-items: center;
   gap: 0.5rem;
   font-size: 0.75rem;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--brand-navy);
+  color: #01CFB5;
 }
 
 @utility eyebrow-light {
@@ -176,10 +176,10 @@
   align-items: center;
   gap: 0.5rem;
   font-size: 0.75rem;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0.18em;
   text-transform: uppercase;
-  color: var(--brand-mint);
+  color: #01CFB5;
 }
 
 @keyframes float-soft {

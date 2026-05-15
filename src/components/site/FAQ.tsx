@@ -35,7 +35,7 @@ export function FAQ() {
       <div className="grid gap-14 lg:grid-cols-[1fr_1.4fr]">
         <div>
           <span className="eyebrow">Dúvidas frequentes</span>
-          <h2 className="mt-4 text-balance text-3xl font-semibold tracking-tight text-brand-navy md:text-5xl">
+          <h2 className="mt-4 text-balance text-3xl font-bold tracking-tight text-brand-navy md:text-5xl">
             Tudo que você precisa saber antes de começar.
           </h2>
           <p className="mt-5 text-ink-soft">

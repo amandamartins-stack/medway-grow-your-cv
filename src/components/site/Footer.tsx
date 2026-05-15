@@ -6,9 +6,6 @@ export function Footer() {
       <div className="container-page flex flex-col items-start justify-between gap-8 py-12 md:flex-row md:items-center">
         <div>
           <img src={LOGO} alt="Medway" className="h-7 w-auto" />
-          <p className="mt-3 max-w-sm text-sm text-ink-soft">
-            Medway Currículo — feito por quem entende de carreira médica.
-          </p>
         </div>
         <div className="flex flex-wrap gap-x-8 gap-y-3 text-sm text-ink-soft">
           <a href="#produto" className="hover:text-brand-navy">Como funciona</a>

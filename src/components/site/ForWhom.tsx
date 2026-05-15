@@ -30,7 +30,7 @@ export function ForWhom() {
       <div className="container-page">
         <div className="mx-auto max-w-3xl text-center">
           <span className="eyebrow">Para quem é</span>
-          <h2 className="mt-4 text-balance text-3xl font-semibold tracking-tight text-brand-navy md:text-5xl">
+          <h2 className="mt-4 text-balance text-3xl font-bold tracking-tight text-brand-navy md:text-5xl">
             Para quem quer construir ou avaliar o currículo com mais estratégia.
           </h2>
           <p className="mt-5 text-pretty text-ink-soft md:text-lg">

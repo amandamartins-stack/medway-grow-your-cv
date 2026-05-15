@@ -14,7 +14,7 @@ export function CTA() {
         <div className="relative grid items-center gap-10 md:grid-cols-[1.4fr_1fr]">
           <div>
             <span className="eyebrow-light">Comece agora</span>
-            <h2 className="mt-4 text-balance text-3xl font-semibold leading-tight tracking-tight md:text-5xl">
+            <h2 className="mt-4 text-balance text-3xl font-bold leading-tight tracking-tight md:text-5xl">
               Seu próximo currículo
               <br />
               <span className="text-brand-mint">não precisa ser improvisado.</span>

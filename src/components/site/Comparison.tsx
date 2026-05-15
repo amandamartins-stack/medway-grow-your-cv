@@ -14,7 +14,7 @@ export function Comparison() {
     <section className="container-page py-24 md:py-32">
       <div className="mx-auto max-w-3xl text-center">
         <span className="eyebrow">Comparativo</span>
-        <h2 className="mt-4 text-balance text-3xl font-semibold tracking-tight text-brand-navy md:text-5xl">
+        <h2 className="mt-4 text-balance text-3xl font-bold tracking-tight text-brand-navy md:text-5xl">
           Dá para tentar entender tudo sozinho, mas não precisa.
         </h2>
       </div>
