@@ -22,9 +22,9 @@ export function Comparison() {
       <div className="mx-auto mt-14 max-w-4xl overflow-hidden rounded-3xl border border-border bg-card shadow-soft">
         <div className="grid grid-cols-[1.4fr_1fr_1fr] border-b border-border bg-surface-2/60 text-xs font-semibold uppercase tracking-widest text-ink-soft">
           <div className="p-5">Recurso</div>
-          <div className="border-l border-border p-5 text-center">Currículo manual</div>
+          <div className="border-l border-border p-5 text-center">Sozinho</div>
           <div className="border-l border-border bg-brand-navy p-5 text-center text-brand-mint">
-            Medway Currículo
+            Com Medway Currículo
           </div>
         </div>
         {rows.map(([label, manual, medway], i) => (
