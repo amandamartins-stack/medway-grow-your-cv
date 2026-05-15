@@ -25,7 +25,7 @@ export function Hero() {
         aria-hidden
       />
       <div
-        className="absolute -top-40 right-[-10%] -z-10 h-[520px] w-[520px] rounded-full opacity-25 blur-3xl"
+        className="absolute -top-40 right-[-10%] -z-10 h-[520px] w-[520px] rounded-full opacity-15 blur-3xl"
         style={{ background: "var(--gradient-mint)" }}
         aria-hidden
       />
@@ -96,7 +96,7 @@ function HeroPreview() {
   return (
     <div className="relative mx-auto w-full max-w-xl animate-fade-up [animation-delay:120ms]">
       <div
-        className="absolute -inset-10 -z-10 rounded-[2.5rem] opacity-50 blur-3xl"
+        className="absolute -inset-10 -z-10 rounded-[2.5rem] opacity-25 blur-3xl"
         style={{ background: "var(--gradient-mint)" }}
         aria-hidden
       />
