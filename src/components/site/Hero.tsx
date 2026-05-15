@@ -81,7 +81,7 @@ export function Hero() {
                 Validado por especialistas Medway
               </div>
               <div className="hidden h-4 w-px bg-border sm:block" />
-              <div>+ de 50.000 médicos confiam na Medway</div>
+              <div>+ 20.000 aprovações em todo o Brasil</div>
             </div>
           </div>
 
