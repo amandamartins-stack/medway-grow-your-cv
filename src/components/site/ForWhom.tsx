@@ -1,26 +1,26 @@
-import { GraduationCap, Stethoscope, Microscope } from "lucide-react";
+import { GraduationCap, Stethoscope, Compass } from "lucide-react";
 
 const personas = [
   {
     icon: GraduationCap,
-    tag: "Graduação",
-    title: "Estudantes de medicina",
-    desc: "Comece a construir um currículo competitivo desde o início. Não deixe para o sexto ano descobrir o que faltou.",
-    bullets: ["Roteiro por ano de curso", "Sinalização do que pesa em cada banca", "Modelo para liga, IC e monitoria"],
+    tag: "4º ano",
+    title: "Para quem quer começar com direção",
+    desc: "Entenda o que já conta para o seu currículo e use o tempo da faculdade a seu favor.",
+    apoio: "Ideal para construir com antecedência.",
+  },
+  {
+    icon: Compass,
+    tag: "5º ano",
+    title: "Para quem quer ajustar a rota",
+    desc: "Veja se você está no caminho certo e identifique o que ainda pode melhorar antes da inscrição.",
+    apoio: "Ideal para priorizar melhor.",
   },
   {
     icon: Stethoscope,
-    tag: "Residência",
-    title: "Candidatos a R1",
-    desc: "Apresente uma trajetória clara, defensável e alinhada ao que cada processo seletivo espera ler.",
-    bullets: ["Estrutura por instituição", "Validação Medway antes da inscrição", "Versão otimizada para prova de títulos"],
-  },
-  {
-    icon: Microscope,
-    tag: "R+ e carreira",
-    title: "Médicos em transição",
-    desc: "Para quem busca R+, fellow, mestrado ou nova posição clínica — com o mesmo padrão de exigência.",
-    bullets: ["Foco em produção científica", "Versão internacional (EN)", "Layout para envio executivo"],
+    tag: "6º ano e recém-formados",
+    title: "Para quem precisa decidir com mais segurança",
+    desc: "Descubra onde seu currículo é mais competitivo e use essa informação na escolha das instituições.",
+    apoio: "Ideal para decidir onde apostar.",
   },
 ];
 
@@ -31,10 +31,10 @@ export function ForWhom() {
         <div className="mx-auto max-w-3xl text-center">
           <span className="eyebrow">Para quem é</span>
           <h2 className="mt-4 text-balance text-3xl font-semibold tracking-tight text-brand-navy md:text-5xl">
-            Em qualquer etapa da carreira médica.
+            Para quem quer construir ou avaliar o currículo com mais estratégia.
           </h2>
           <p className="mt-5 text-pretty text-ink-soft md:text-lg">
-            O Medway Currículo se adapta ao seu momento — e antecipa o próximo.
+            O Medway Currículo ajuda em diferentes momentos da jornada até a residência.
           </p>
         </div>
 
@@ -55,14 +55,12 @@ export function ForWhom() {
               <h3 className="mt-7 text-xl font-semibold text-brand-navy">{p.title}</h3>
               <p className="mt-2 text-sm leading-relaxed text-ink-soft">{p.desc}</p>
 
-              <ul className="mt-6 space-y-2.5 border-t border-border pt-5">
-                {p.bullets.map((b) => (
-                  <li key={b} className="flex items-start gap-2.5 text-sm text-ink">
-                    <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-brand-mint" />
-                    {b}
-                  </li>
-                ))}
-              </ul>
+              <div className="mt-6 border-t border-border pt-5">
+                <p className="flex items-start gap-2.5 text-sm font-medium text-brand-navy">
+                  <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-brand-mint" />
+                  {p.apoio}
+                </p>
+              </div>
             </article>
           ))}
         </div>
