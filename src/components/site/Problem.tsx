@@ -3,23 +3,23 @@ import { AlertCircle, Clock, FileQuestion, Target } from "lucide-react";
 const items = [
   {
     icon: FileQuestion,
-    title: "Você não sabe o que entra (e o que fica de fora).",
-    desc: "Cada banca valoriza algo diferente. Sem critério claro, fica fácil esquecer o que pesa de verdade.",
+    title: "Cada edital avalia de um jeito",
+    desc: "O mesmo currículo pode ter pesos diferentes dependendo da instituição.",
   },
   {
     icon: Clock,
-    title: "Horas perdidas formatando no Word.",
-    desc: "Tempo que deveria ser de estudo virou ajuste de margem, fonte e espaçamento. Sempre.",
-  },
-  {
-    icon: Target,
-    title: "Falta direção estratégica.",
-    desc: "Mais do que listar atividades, é preciso narrar uma trajetória que faça sentido para o avaliador.",
+    title: "Nem sempre dá para fazer tudo",
+    desc: "Quando o tempo é limitado, saber o que priorizar faz diferença.",
   },
   {
     icon: AlertCircle,
-    title: "O risco é alto demais para improvisar.",
-    desc: "Um currículo fraco pode custar pontos decisivos — em provas onde décimos definem aprovação.",
+    title: "A comparação gera ansiedade",
+    desc: "Sem uma referência clara, fica fácil achar que está fazendo pouco ou investir energia no lugar errado.",
+  },
+  {
+    icon: Target,
+    title: "A decisão fica menos estratégica",
+    desc: "Entender onde seu currículo performa melhor pode ajudar na escolha das instituições.",
   },
 ];
 
@@ -29,13 +29,15 @@ export function Problem() {
       <div className="mx-auto max-w-3xl text-center">
         <span className="eyebrow">O problema</span>
         <h2 className="mt-4 text-balance text-3xl font-semibold tracking-tight text-brand-navy md:text-5xl">
-          Currículo médico não é só um documento.
-          <br />
-          <span className="text-ink-soft">É um filtro.</span>
+          Você sabe se o seu currículo está te aproximando da aprovação?
         </h2>
         <p className="mt-5 text-pretty text-base text-ink-soft md:text-lg">
-          E a maioria dos candidatos chega na hora da inscrição com um arquivo improvisado, montado
-          às pressas, sem critério estratégico.
+          Na residência médica, o currículo pode fazer diferença. Mas cada instituição tem
+          critérios próprios, pesos diferentes e regras que nem sempre são fáceis de comparar.
+        </p>
+        <p className="mt-3 text-pretty text-base text-ink-soft md:text-lg">
+          No fim, muita gente segue construindo currículo sem saber o que realmente vale ponto
+          ou onde ainda dá tempo de melhorar.
         </p>
       </div>
 
