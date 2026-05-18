@@ -1,0 +1,1 @@
+Alterar em `src/components/site/LogoBar.tsx` o H2 de "A Escola por trás de quem passa" para "A Escolha por trás de quem passa".

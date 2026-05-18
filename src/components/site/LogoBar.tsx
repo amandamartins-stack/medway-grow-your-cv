@@ -23,7 +23,7 @@ export function LogoBar() {
     <section className="border-y border-border/60 bg-surface-2/60">
       <div className="container-page py-14 md:py-16">
         <h2 className="mx-auto max-w-3xl text-balance text-center text-3xl font-bold tracking-tight text-brand-navy md:text-5xl">
-          A Escola por trás de quem passa
+          A Escolha por trás de quem passa
         </h2>
         <p className="mx-auto mt-4 max-w-2xl text-center text-sm text-ink-soft md:text-base">
           A Medway já ajudou milhares de médicos a chegarem mais perto da aprovação. Agora,
