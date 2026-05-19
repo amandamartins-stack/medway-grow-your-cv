@@ -1,12 +1,13 @@
 import { Link } from "@tanstack/react-router";
-import LOGO from "@/assets/logo-medway-curriculos.png";
+
+const LOGO = "https://campanhas.medway.com.br/hs-fs/hubfs/medway-logo-horizontal-azul-verde.png";
 
 export function Nav() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border/60 bg-background/80 backdrop-blur-xl">
       <div className="container-page flex h-16 items-center justify-between md:h-20">
         <Link to="/" className="flex items-center gap-2">
-          <img src={LOGO} alt="Medway Currículos" className="h-9 w-auto md:h-10" />
+          <img src={LOGO} alt="Medway" className="h-7 w-auto md:h-8" />
         </Link>
 
         <nav className="hidden items-center gap-8 text-sm font-medium text-ink-soft md:flex">
