@@ -1,4 +1,6 @@
 import { ArrowRight } from "lucide-react";
+import LOGO_WHITE from "@/assets/logo-medway-curriculo-branco.png";
+
 
 export function CTA() {
   return (
@@ -13,6 +15,7 @@ export function CTA() {
 
         <div className="relative grid items-center gap-10 md:grid-cols-[1.4fr_1fr]">
           <div>
+            <img src={LOGO_WHITE} alt="Medway Currículo" className="mb-6 h-8 w-auto md:h-10" />
             <span className="eyebrow-light">Comece agora</span>
             <h2 className="mt-4 text-balance text-3xl font-bold leading-tight tracking-tight md:text-5xl">
               Seu próximo currículo
