@@ -26,8 +26,8 @@ function Index() {
         <LogoBar />
         <Problem />
         <Product />
-        <Differentials />
         <PlanoMedway />
+        <Differentials />
         <ForWhom />
         <Comparison />
         <Testimonials />
