@@ -11,6 +11,7 @@ export function Nav() {
 
         <nav className="hidden items-center gap-8 text-sm font-medium text-ink-soft md:flex">
           <a href="#produto" className="transition hover:text-brand-navy">Como funciona</a>
+          <a href="#plano-medway" className="transition hover:text-brand-navy">Plano Medway</a>
           <a href="#diferencial" className="transition hover:text-brand-navy">Diferenciais</a>
           <a href="#para-quem" className="transition hover:text-brand-navy">Para quem é</a>
           <a href="#faq" className="transition hover:text-brand-navy">FAQ</a>
