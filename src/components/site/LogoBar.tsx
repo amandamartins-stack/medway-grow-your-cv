@@ -8,7 +8,7 @@ const stats = [
   },
   {
     icon: Award,
-    value: "+2.700",
+    value: "+3.000",
     label: "aprovações em primeiros lugares",
   },
   {
