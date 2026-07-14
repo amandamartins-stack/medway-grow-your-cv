@@ -37,7 +37,7 @@ export function Hero() {
               <Sparkles className="h-3.5 w-3.5 text-brand-mint" /> Novo · Medway Currículo
             </span>
 
-            <h1 className="mt-5 text-balance text-4xl font-semibold leading-[1.05] tracking-tight text-brand-navy md:text-6xl lg:text-[68px]">
+            <h1 className="mt-5 text-balance text-4xl font-semibold leading-[1.05] tracking-tight text-brand-navy md:text-6xl lg:text-[64px]">
               Descubra quanto seu currículo{" "}
               <span className="relative inline-block">
                 <span className="relative z-10 text-brand-navy">vale</span>
@@ -47,12 +47,13 @@ export function Hero() {
                   style={{ background: "var(--brand-mint)" }}
                 />
               </span>{" "}
-              para a residência médica.
+              — e o que fazer pra melhorar.
             </h1>
 
             <p className="mt-6 max-w-xl text-pretty text-base leading-relaxed text-ink-soft md:text-lg">
-              Preencha seu currículo médico e veja sua pontuação estimada nas instituições
-              disponíveis, com base nos critérios dos editais.
+              Veja sua pontuação estimada em cada instituição, com base nos editais oficiais.
+              Receba o <span className="font-semibold text-brand-navy">Meu Plano Medway</span>:
+              um plano personalizado com o que você precisa priorizar para subir sua nota.
             </p>
 
             <div className="mt-9 flex flex-col gap-3 sm:flex-row">
