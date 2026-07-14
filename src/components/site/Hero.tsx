@@ -47,7 +47,7 @@ export function Hero() {
                   style={{ background: "var(--brand-mint)" }}
                 />
               </span>{" "}
-              — e o que fazer pra melhorar.
+              e o que fazer pra melhorar.
             </h1>
 
             <p className="mt-6 max-w-xl text-pretty text-base leading-relaxed text-ink-soft md:text-lg">
