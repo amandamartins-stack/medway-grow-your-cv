@@ -5,6 +5,7 @@ import { LogoBar } from "@/components/site/LogoBar";
 import { Problem } from "@/components/site/Problem";
 import { Product } from "@/components/site/Product";
 import { Differentials } from "@/components/site/Differentials";
+import { PlanoMedway } from "@/components/site/PlanoMedway";
 import { ForWhom } from "@/components/site/ForWhom";
 import { Comparison } from "@/components/site/Comparison";
 import { Testimonials } from "@/components/site/Testimonials";
