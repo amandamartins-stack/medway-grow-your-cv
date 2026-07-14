@@ -27,6 +27,7 @@ function Index() {
         <Problem />
         <Product />
         <Differentials />
+        <PlanoMedway />
         <ForWhom />
         <Comparison />
         <Testimonials />
