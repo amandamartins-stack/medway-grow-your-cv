@@ -31,8 +31,9 @@ function Index() {
         <ForWhom />
         <Comparison />
         <Testimonials />
-        <FAQ />
         <CTA />
+        <FAQ />
+
       </main>
       <Footer />
     </div>
