@@ -95,38 +95,30 @@ export function Hero() {
 
 function HeroPreview() {
   return (
-    <div className="relative mx-auto w-full max-w-xl animate-fade-up [animation-delay:120ms]">
+    <div className="relative mx-auto w-full max-w-2xl animate-fade-up [animation-delay:120ms]">
       <div
         className="absolute -inset-10 -z-10 rounded-[2.5rem] opacity-25 blur-3xl"
         style={{ background: "var(--gradient-mint)" }}
         aria-hidden
       />
 
-      {/* Main screenshot — Currículo */}
-      <div className="relative overflow-hidden rounded-2xl border border-border/60 bg-white shadow-elevated animate-float-soft">
+      {/* Main screenshot — Dashboard */}
+      <div
+        className="relative overflow-hidden rounded-2xl border border-border/60 bg-white shadow-elevated animate-float-soft"
+      >
         <img
-          src={heroCurriculo}
-          alt="Tela do Medway Currículo mostrando seções de preenchimento e notas por instituição"
+          src={heroDashboard.url}
+          alt="Dashboard do Medway Currículo com pódio das instituições e nota do candidato"
           className="block w-full"
           loading="eager"
         />
       </div>
 
-      {/* Floating top — Dashboard / pódio */}
-      <div className="absolute -top-10 -left-10 hidden w-[58%] overflow-hidden rounded-xl border border-border/60 bg-white shadow-elevated sm:block">
+      {/* Floating bottom — Análise */}
+      <div className="absolute -bottom-12 -right-6 hidden w-[70%] overflow-hidden rounded-xl border border-border/60 bg-white shadow-elevated sm:block md:-right-10 md:w-[65%]">
         <img
-          src={heroDashboard}
-          alt="Dashboard Medway com pódio das instituições e nota do candidato"
-          className="block w-full"
-          loading="eager"
-        />
-      </div>
-
-      {/* Floating bottom — Inspirações */}
-      <div className="absolute -bottom-10 -right-8 hidden w-[55%] overflow-hidden rounded-xl border border-border/60 bg-white shadow-elevated sm:block">
-        <img
-          src={heroInspiracoes}
-          alt="Galeria de currículos de aprovados Medway"
+          src={heroAnalise.url}
+          alt="Análise de pontos fortes e a desenvolver gerada pelo Medway Currículo"
           className="block w-full"
           loading="eager"
         />
@@ -134,3 +126,4 @@ function HeroPreview() {
     </div>
   );
 }
+
