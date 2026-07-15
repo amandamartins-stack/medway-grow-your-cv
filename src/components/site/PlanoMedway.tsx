@@ -59,7 +59,10 @@ function PlanoPreview() {
       />
 
       {/* Main screenshot — Ações priorizadas */}
-      <div className="relative overflow-hidden rounded-2xl border border-white/10 bg-white shadow-elevated animate-float-soft">
+      <div
+        className="relative overflow-hidden rounded-2xl border border-white/20 bg-white animate-float-soft ring-1 ring-black/5"
+        style={{ boxShadow: "0 30px 60px -20px rgba(0,0,0,0.55), 0 12px 30px -12px rgba(0,0,0,0.4)" }}
+      >
         <img
           src={planoImg1.url}
           alt="Ações priorizadas do Plano Medway com pontuação por instituição"
@@ -69,7 +72,10 @@ function PlanoPreview() {
       </div>
 
       {/* Floating top — Análise inicial */}
-      <div className="absolute -top-10 -left-10 hidden w-[60%] overflow-hidden rounded-xl border border-white/10 bg-white shadow-elevated sm:block">
+      <div
+        className="absolute -top-10 -left-10 hidden w-[60%] overflow-hidden rounded-xl border border-white/20 bg-white ring-1 ring-black/5 sm:block"
+        style={{ boxShadow: "0 25px 50px -18px rgba(0,0,0,0.6), 0 8px 20px -8px rgba(0,0,0,0.35)" }}
+      >
         <img
           src={planoImg2.url}
           alt="Análise de pontos fortes e a desenvolver gerada pelo Plano Medway"
@@ -79,7 +85,10 @@ function PlanoPreview() {
       </div>
 
       {/* Floating bottom — Mais ações */}
-      <div className="absolute -bottom-10 -right-8 hidden w-[55%] overflow-hidden rounded-xl border border-white/10 bg-white shadow-elevated sm:block">
+      <div
+        className="absolute -bottom-10 -right-8 hidden w-[55%] overflow-hidden rounded-xl border border-white/20 bg-white ring-1 ring-black/5 sm:block"
+        style={{ boxShadow: "0 25px 50px -18px rgba(0,0,0,0.6), 0 8px 20px -8px rgba(0,0,0,0.35)" }}
+      >
         <img
           src={planoImg3.url}
           alt="Mais ações recomendadas pelo Plano Medway com esforço e prazo"
