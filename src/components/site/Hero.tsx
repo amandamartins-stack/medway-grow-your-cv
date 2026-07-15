@@ -114,8 +114,8 @@ function HeroPreview() {
         />
       </div>
 
-      {/* Floating bottom — Análise */}
-      <div className="absolute -bottom-12 -right-6 hidden w-[70%] overflow-hidden rounded-xl border border-border/60 bg-white shadow-elevated sm:block md:-right-10 md:w-[65%]">
+      {/* Floating — Análise (canto superior esquerdo, sobrepondo a dashboard) */}
+      <div className="absolute -top-10 -left-10 hidden w-[62%] overflow-hidden rounded-xl border border-border/60 bg-white shadow-elevated sm:block md:-top-14 md:-left-14 md:w-[58%]">
         <img
           src={heroAnalise.url}
           alt="Análise de pontos fortes e a desenvolver gerada pelo Medway Currículo"
@@ -123,6 +123,7 @@ function HeroPreview() {
           loading="eager"
         />
       </div>
+
     </div>
   );
 }
